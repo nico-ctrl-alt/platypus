@@ -2,6 +2,7 @@ extends CharacterBody3D
 class_name Player
 
 @export var speed = 1.0
+@export var jump_vel = 4.5
 @export var health = 100.0
 #this is a pretty easy way to implement status effects
 @export var status_effects = {
